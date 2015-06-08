@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: nav', function () {
+describe('Service: subnav', function () {
 
   // load the service's module
   beforeEach(module('cbApp'));
 
   // instantiate service
-  var nav;
-  beforeEach(inject(function (_nav_) {
-    nav = _nav_;
+  var subnav;
+  beforeEach(inject(function (_subnav_) {
+    subnav = _subnav_;
   }));
 
   it('should do something', function () {
-    expect(!!nav).toBe(true);
+    expect(!!subnav).toBe(true);
   });
 
 });

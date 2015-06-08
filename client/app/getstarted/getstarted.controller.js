@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('firstApp')
+angular.module('cbApp')
   .controller('GetstartedCtrl', function ($scope, nav) {
     $scope.message = 'Hello';
     $scope.title = nav.topnav[1].title;

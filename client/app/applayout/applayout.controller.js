@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('firstApp')
-  .controller('ApplayoutCtrl', function ($scope, nav) {
+angular.module('cbApp')
+  .controller('ApplayoutCtrl', function ($scope, nav, subnav) {
     $scope.message = 'Hello';
     $scope.title = nav.topnav[2].title;
     $scope.subtitle = nav.topnav[2].subtitle;
-    $scope.subnav = nav.topnav[2].subnav;
+    $scope.subnav = subnav.getSubnav(2); //nav.topnav[2].subnav;
   });

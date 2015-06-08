@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('firstApp')
+angular.module('cbApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('getstarted', {

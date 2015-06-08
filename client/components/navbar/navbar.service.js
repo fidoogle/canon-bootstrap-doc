@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('firstApp')
+angular.module('cbApp')
   .service('nav', function () {
     // AngularJS will instantiate a singleton by calling "new" on this function
     var nav = this;

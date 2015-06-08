@@ -3,7 +3,7 @@
 describe('Controller: GetstartedCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('firstApp'));
+  beforeEach(module('cbApp'));
 
   var GetstartedCtrl, scope;
 

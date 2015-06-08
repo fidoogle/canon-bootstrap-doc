@@ -3,7 +3,7 @@
 describe('Controller: ApplayoutCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('firstApp'));
+  beforeEach(module('cbApp'));
 
   var ApplayoutCtrl, scope;
 

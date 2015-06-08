@@ -1,7 +1,9 @@
 'use strict';
 
-angular.module('firstApp')
-  .controller('NavbarCtrl', function ($scope, $location, nav) {
+angular.module('cbApp').controller('NavbarCtrl', NavbarCtrl);
+NavbarCtrl.$inject = ['$scope', '$location', 'nav'];
+
+function NavbarCtrl($scope, $location, nav) {
     $scope.menu = nav.topnav;
 
     $scope.isCollapsed = true;
@@ -9,4 +11,4 @@ angular.module('firstApp')
     $scope.isActive = function(route) {
       return route === $location.path();
     };
-  });
+}
